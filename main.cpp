@@ -1,6 +1,7 @@
 #define WIDTH 600
 #define HEIGHT 600
 
+//Sets frame rate for the app
 #define TICK_INTERVAL 20
 
 #include "app.h"
@@ -31,11 +32,12 @@ int main(int argc, char* argv[])
     mainApp->LoadTextures();
     mainApp->LoadUI();
     
-
+    //Starting control loop
     while(1)
     {
+        //Render splash screen if this is the first loop
         mainApp->SplashScreen();
-
+        //Wait until splash screen is finished
         if(SDL_GetTicks() > 3000)
         {
             break;
@@ -45,16 +47,19 @@ int main(int argc, char* argv[])
         next_time += TICK_INTERVAL; 
     }
 
+    //Main control loop
     while(mainApp->isRunning)
     {
         mainApp->HandleEvents();
         mainApp->Update();
         mainApp->Render();
 
+        //Wait until next frame
         SDL_Delay(time_left());
         next_time += TICK_INTERVAL;
     }
 
+    //Shutdown the app
     mainApp->Clean();
 
     return 0;
