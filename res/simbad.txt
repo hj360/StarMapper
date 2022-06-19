@@ -1,0 +1,143 @@
+echo Nearest_Stars
+
+set frame GAL
+
+format object form1 "%IDLIST(1), %SP(S), info, %COO(d; A; GAL;), %COO(d; D; GAL), %PLX(V)"
+
+query id Sirius A
+query id Altair
+query id Procyon A
+query id Alpha Centauri A
+query id Tau Ceti
+query id Sigma Draconis
+query id Eta Cassiopeiae A
+query id 82 Eridani
+query id Delta Pavonis
+query id Alpha Centauri B
+query id Epsilon Eridani
+query id 61 Cygni A
+query id 61 Cygni B
+query id Epsilon Indi
+query id Groombridge 1618
+query id 40 Eridani A
+query id 70 Ophiuchi A
+query id 70 Ophiuchi B
+query id Gl 570 A
+query id Eta Cassiopeiae B
+query id 36 Ophiuchi A
+query id 36 Ophiuchi B
+query id 36 Ophiuchi C
+query id HR7703
+query id Sirius B
+query id Procyon B
+query id van Maanen's Star
+query id Gliese 65
+query id 40 Eridani B
+query id Stein 2051 B
+query id LP 44-113
+query id Proxima Centauri
+query id Barnard's Star
+query id Wolf 359
+query id Lalande 21185
+query id Luyten 726-8 A
+query id UV Ceti
+query id Ross 154
+query id Ross 248
+query id Lacaille 9352
+query id Ross 128
+query id Gliese 866
+query id Gliese 725
+query id Gmb34
+query id DX Cancri
+query id LHS 1565
+query id YZ Ceti
+query id Luyten's Star
+query id Kapteyn's Star
+query id Teegarden's Star
+query id SCR1845
+query id Lacaille 8760
+query id Kruger 60
+query id DENIS 1048-3956
+query id Ross 614 A
+query id Ross 614 B
+query id Wolf 1061 A
+query id Wolf 1061 B
+query id Wolf 424
+query id Wolf 424
+query id 2M1540
+query id TZ Arietis
+query id Gliese 687
+query id LP 731-58
+query id CD-46 11450
+query id GJ 1245 A
+query id GJ 1245 B
+query id GJ 1245 C
+query id G 158-27
+query id Gliese 876
+query id L 143-23
+query id GJ 412
+query id WX Ursae Majoris
+query id AD Leonis
+query id CD-49 13515
+query id CD-44 11909
+query id 40 Eridani C
+query id EV Lacertae
+query id GJ 1005 A
+query id GJ 1005 B
+query id EI Cancri
+query id GJ 1116
+query id LTT 17897
+query id AC+79 3888
+query id G 099-049
+query id Lalande 25372
+query id LHS 1723
+query id LP 816-60
+query id Stein 2051
+query id Wolf 294
+query id BD-03 1123
+query id V1054 Ophiuchi
+query id Gliese 643
+query id Gliese 229
+query id Ross 47
+query id L 205-128
+query id Wolf 1055
+query id van Biesbroeck's Star
+query id L 674-15
+query id Gl 570 B
+query id Gl 570 C
+query id TYC 3980-1081-1
+query id Ross 882
+query id CD-40 9712
+query id BD+01 4774
+query id L 347-14
+query id Gliese 783
+query id BD-11 3759
+query id Ross 986
+query id Luhman 16
+query id WISEA J085510.74-071442.5
+query id WISEPA J154151.66−225025.2
+query id WISEPC J150649.97+702736.0
+query id WISEPC J140518.40+553421.4
+query id WISE J035000.32−565830.2
+query id SCR 1845−6357
+query id UGPS J072227.51−054031.2
+query id DENIS-P J104814.7-395606.1
+query id WISEPA J041022.71+150248.5
+query id DENIS J081730.0−615520
+query id WISEPA J025409.45+022359.1
+query id DENIS-P J025503.3-470049
+query id LP 944-20
+query id WISE J163940.83-684738.6
+query id WISE J052126.29+102528.4
+query id 2MASS J09393548-2448279
+query id WISE J220905.73+271143.9
+query id 2MASSI J1835379+325954
+query id 2MASS J04151954−0935066
+query id Gliese 229
+query id WISEPA J174124.26+255319.5
+query id Gliese 570
+query id 2MASS J09373487+2931409
+query id SSSPM J1549-3544
+
+
+format display
