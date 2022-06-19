@@ -2,6 +2,8 @@
 
 Interactive map of our closest stellar neighbors using C++ and SDL2 along with data from SIMBAD
 
+This is a very basic personal project that I made in order to learn SDL2 and simple matrix multiplication for 3D rendering. Presents stars as points in 3D space with an interactive custom UI layer:
+
 ![Example](example.png)
 
 Can be modified to use any celestial data to visually display spatial information about stellar objects. This can be done by modifying and running the script res/simbad.txt and overwriting the res/stars.txt file with new stellar objects. Scale will also need to be changed to see objects close together.
