@@ -4,9 +4,9 @@
 #include <SDL2/SDL.h>
 #include <iostream>
 
-#include "starManager.h"
-#include "HUI.h"
-#include "texturedElement.h"
+#include "DATA/starManager.h"
+#include "GUI/HUI.h"
+#include "GUI/texturedElement.h"
 #include <SDL2/SDL_ttf.h>
 
 class App
